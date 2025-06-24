@@ -1,0 +1,35 @@
+#subheadTres{
+    display: flex;
+    gap: 40px;
+    padding-top: 140px;
+}
+#subTresTextUm{
+    display: inline-flex;
+    font-size: 40px;
+    background-color: var(--green);
+    font-weight: 500;
+    align-items: center;
+}
+#subTresTextDois{
+    font-size: 18px;
+    width: 292px;
+}
+@media (max-width: 1040px) {
+    #subTresTextUm{
+        font-size: 30px;
+    }
+    #subTresTextDois{
+        font-size: 13px;
+        width: 375px;
+    }
+}
+@media (max-width: 566px) {
+    #subTresTextUm{
+        width: 125px;
+        height: 39px;
+        font-size: 30px;
+    }
+    #subTresTextDois{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,13 @@
+#secLogoUm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 70px;
+  gap: 20px;
+  mix-blend-mode: luminosity;
+}
+@media (max-width: 498px) {
+    #logoTypes{
+        display: none;
+    }
+}

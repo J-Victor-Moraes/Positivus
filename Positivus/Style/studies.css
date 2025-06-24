@@ -1,0 +1,54 @@
+#studies{
+    padding-top: 80px;
+}
+#studiesContGrande{
+    padding: 70px 60px;
+    gap: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+    background-color: var(--dark);
+}
+.studiesCont{
+    gap: 20px;
+}
+.studiesText{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 20px;
+}
+.studiesContUm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.studiesLearn{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--green);
+    align-items: center;
+}
+.studiesLine{
+    width: 1px;
+    height: 186px;
+    background-color: white;
+}
+
+@media (max-width: 1170px){
+    #studiesContGrande{
+        padding: 40px 40px;
+    }
+    .studiesText{
+        font-size: 13px;
+    }
+    .studiesLearn{
+        font-size: 15px;
+    }
+    .studiesSeta{
+        width: 15px;
+        height: 15px;
+    }
+}

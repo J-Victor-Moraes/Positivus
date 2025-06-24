@@ -1,0 +1,35 @@
+#subheadQuatro{
+    display: flex;
+    gap: 40px;
+    padding-top: 140px;
+}
+#subQuatroTextUm{
+    display: inline-flex;
+    font-size: 40px;
+    background-color: var(--green);
+    font-weight: 500;
+    align-items: center;
+}
+#subQuatroTextDois{
+    width: 473px;
+    font-size: 18px;
+}
+@media (max-width: 1040px) {
+    #subQuatroTextUm{
+        font-size: 30px;
+    }
+    #subQuatroTextDois{
+        font-size: 13px;
+        width: 375px;
+    }
+}
+@media (max-width: 566px) {
+    #subQuatroTextUm{
+        width: 125px;
+        height: 39px;
+        font-size: 30px;
+    }
+    #subQuatroTextDois{
+        font-size: 14px;
+    }
+}

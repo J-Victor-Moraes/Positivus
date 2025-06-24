@@ -1,0 +1,64 @@
+#processblock{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 30px;
+}
+/* CONTAINER VERDE */
+#processContGreenGrande{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 41px 60px;
+    border-radius: 45px;
+    border-width: 1px;
+    background-color: var(--green);
+    border: 1px solid var(--dark);
+    box-shadow: 0px 5px 0px 0px var(--dark);
+}
+#processContGreenUm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#processContGreenDois{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+#processLine{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+#processGreenTextUm{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* CONTAINER CINZA */
+.processContGrande{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 41px 60px;
+    border-radius: 45px;
+    border-width: 1px;
+    background-color: var(--grey);
+    border: 1px solid var(--dark);
+    box-shadow: 0px 5px 0px 0px var(--dark);
+}
+.processCont{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.processNum{
+    font-size: 60px;
+    font-weight: 500;
+}
+.processText{
+    font-weight: 500;
+    font-size: 30px;
+}

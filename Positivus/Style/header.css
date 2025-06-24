@@ -1,0 +1,113 @@
+#header{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#contHeader{
+    width:35vw;
+}
+#headerTextUm{
+    font-weight: 500;
+    font-size: 60px;
+}
+#headerTextDois{
+    padding: 35px 0px 55px 0px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+#headerButton{
+    text-decoration: none;
+    background-color: var(--dark);
+    padding: 20px 35px;
+    border-radius: 14px;
+    color: var(--grey);
+}
+#headerImg{
+    height: 531px;
+}
+
+/* HOVER */
+#headerButton:hover{
+    border: 1px solid var(--dark);
+    color: black;
+    background-color: var(--grey);
+    font-weight: 400;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 1155px) {
+    #headerTextUm{
+        font-size: 35px;
+    }
+    #headerTextDois{
+        font-size: 12px;
+        line-height: 17px;
+        padding: 17px 0px 29px 0px;
+    }
+    #headerButton{
+        padding: 10px 17px;
+        font-size: 12px;
+    }
+    #headerImg{
+        height: 280px;
+        width: 310px;
+    }
+}
+
+@media (max-width: 768px) {
+    #header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #headerTextUm{
+        font-size: 35px;
+    }
+    #headerTextDois{
+        font-size: 12px;
+        line-height: 17px;
+        padding: 17px 0px 29px 0px;
+    }
+    #headerButton{
+        padding: 10px 17px;
+        font-size: 12px;
+    }
+    #headerImg{
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+     #headerTextUm{
+        font-size: 25px;
+    }
+    #headerTextDois{
+        font-size: 10px;
+        line-height: 13px;
+        padding: 17px 0px 29px 0px;
+    }
+    #headerButton{
+        padding: 7px 14px;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 327px) {
+    #header{
+        padding: 35px 50px 0px 50px;
+    }
+    #headerButton{
+        padding: 7px 14px;
+        font-size: 7px;
+    }
+         #headerTextUm{
+        font-size: 20px;
+    }
+    #headerTextDois{
+        font-size: 7px;
+        line-height: 10px;
+        padding: 14px 0px 20px 0px;
+    }
+}

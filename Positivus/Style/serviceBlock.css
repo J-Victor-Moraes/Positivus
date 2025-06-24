@@ -1,0 +1,365 @@
+#serviceBlock{
+    padding-top: 80px;
+    justify-content: center;
+}
+
+/* CONTAINER LINHA */
+.contServiceGrande{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+/* CONTAINERS GRANDE*/
+.serviceContGrey{
+    display: flex;
+    width: 400px;
+    height: 205px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+    border-width: 1px;
+    padding: 50px;
+    background-color: var(--grey);
+    border: 1px solid var(--dark);
+    box-shadow: 0px 5px 0px 0px var(--dark);
+}
+.serviceContGreen{
+    display: flex;
+    width: 400px;
+    height: 205px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+    border-width: 1px;
+    padding: 50px;
+    background-color: var(--green);
+    border: 1px solid var(--dark);
+    box-shadow: 0px 5px 0px 0px var(--dark);
+}
+.serviceContDark{
+    display: flex;
+    width: 400px;
+    height: 205px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+    border-width: 1px;
+    padding: 50px;
+    background-color: var(--dark);
+    border: 1px solid var(--dark);
+    box-shadow: 0px 5px 0px 0px var(--dark);
+
+}
+
+/* IMAGENS */
+#serviceImgUm{
+    width: 210px;
+    height: 166px;
+}
+#serviceImgDois{
+    width: 210px;
+    height: 147px;
+}
+#serviceImgTres{
+    width: 210px;
+    height: 210px;
+}
+#serviceImgQuatro{
+    width: 210px;
+    height: 192px;
+}
+#serviceImgCinco{
+    width: 210px;
+    height: 195px;
+}
+#serviceImgSeis{
+    width: 210px;
+    height: 170px;
+}
+
+/* CONTAINER DO LADO DA IMAGEM */
+.serviceCont{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 93px;
+}
+
+/* TEXTOS */
+.textGreen{
+    background-color: var(--green);
+    padding: 0px 7px;
+    border-radius: 7px;
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 500;
+    font-size: 26px;
+}
+.textGrey{
+    background-color: var(--grey);
+    padding: 0px 7px;
+    border-radius: 7px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 500;
+    font-size: 26px;
+}
+.textDark{
+    background-color: var(--dark);
+    padding: 0px 7px;
+    border-radius: 7px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+/* LEARN */
+.learnDark{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+.learnGrey{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1262px) {
+    
+/* CONTAINER */ 
+    .serviceContGrey{
+        width: 300px;
+        height: 152px;
+    }
+    .serviceContGreen{
+        width: 300px;
+        height: 152px;
+     }
+    .serviceContDark{
+        width: 300px;
+        height: 152px;
+      }    
+    .serviceCont{
+        padding-top: 60px;
+    }
+
+    /* IMAGEM CONTAINER */
+      #serviceImgUm{
+        width: 150px;
+        height: 106px;
+    }
+    #serviceImgDois{
+        width: 150px;
+        height: 106px;
+    }
+    #serviceImgTres{
+        width: 150px;
+        height: 150px;
+    }
+    #serviceImgQuatro{
+        width: 150px;
+        height: 136px;
+    }
+    #serviceImgCinco{
+        width: 150px;
+        height: 136px;
+    }
+    #serviceImgSeis{
+        width: 150px;
+        height: 106px;
+    }
+    
+/* TEXTOS CONTAINER */
+    .textGreen{
+        font-size: 18px;
+    }
+    .textGrey{
+        font-size: 18px;
+    }
+    .textDark{
+        font-size: 18px;
+    }
+
+    .learnDark{
+        font-size: 15px;
+    }
+    .learnGrey{
+        font-size: 15px;
+    }
+/* SETA */
+    .seta{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 1013px) {
+    
+/* CONTAINER */ 
+    .serviceContGrey{
+        width: 200px;
+        height: 100px;
+    }
+    .serviceContGreen{
+        width: 200px;
+        height: 100px;
+     }
+    .serviceContDark{
+        width: 200px;
+        height: 100px;
+      }    
+    .serviceCont{
+        padding-top: 40px;
+    }
+
+    /* IMAGEM CONTAINER */
+      #serviceImgUm{
+        width: 100px;
+        height: 76px;
+    }
+    #serviceImgDois{
+        width: 100px;
+        height: 76px;
+    }
+    #serviceImgTres{
+        width: 100px;
+        height: 100px;
+    }
+    #serviceImgQuatro{
+        width: 100px;
+        height: 76px;
+    }
+    #serviceImgCinco{
+        width: 100px;
+        height: 76px;
+    }
+    #serviceImgSeis{
+        width: 100px;
+        height: 76px;
+    }
+    
+/* TEXTOS CONTAINER */
+    .textGreen{
+        font-size: 13px;
+    }
+    .textGrey{
+        font-size: 13px;
+    }
+    .textDark{
+        font-size: 13px;
+    }
+
+    .learnDark{
+        font-size: 10px;
+    }
+    .learnGrey{
+        font-size: 10px;
+    }
+/* SETA */
+    .seta{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .contServiceGrande{
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media (max-width: 425px) {
+    
+/* CONTAINER */ 
+    .serviceContGrey{
+        width: 150px;
+        height: 75px;
+        padding: 25px;
+    }
+    .serviceContGreen{
+        width: 150px;
+        height: 75px;
+        padding: 25px;
+     }
+    .serviceContDark{
+        width: 150px;
+        height: 75px;
+        padding: 25px;
+      }    
+    .serviceCont{
+        padding-top: 30px;
+    }
+
+    /* IMAGEM CONTAINER */
+      #serviceImgUm{
+        width: 75px;
+        height: 50px;
+    }
+    #serviceImgDois{
+        width: 75px;
+        height: 50px;
+    }
+    #serviceImgTres{
+        width: 75px;
+        height: 75px;
+    }
+    #serviceImgQuatro{
+        width: 75px;
+        height: 50px;
+    }
+    #serviceImgCinco{
+        width: 75px;
+        height: 50px;
+    }
+    #serviceImgSeis{
+        width: 75px;
+        height: 50px;
+    }
+    
+/* TEXTOS CONTAINER */
+    .textGreen{
+        font-size: 10px;
+    }
+    .textGrey{
+        font-size: 10px;
+    }
+    .textDark{
+        font-size: 10px;
+    }
+
+    .learnDark{
+        font-size: 7px;
+    }
+    .learnGrey{
+        font-size: 7px;
+    }
+
+/* SETA */
+    .seta{
+        width: 15px;
+        height: 15px;
+    }
+    .serviceCont{
+        gap: 10px;
+    }
+}
+@media (max-width: 337px) {
+    #serviceBlock{
+    padding-top: 150px;
+    }
+}
