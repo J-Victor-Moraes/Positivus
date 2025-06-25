@@ -1,0 +1,72 @@
+#group{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.groupContLinha{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.groupCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 357px;
+    height: 311px;
+    gap: 20px;
+    padding: 40px 35px;
+    border-radius: 45px;
+    border-width: 1px;
+    background-color: white;
+    border: 1px solid var(--dark);
+    box-shadow: 0px 5px 0px 0px var(--dark);
+}
+.groupContIn{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.groupPessoa{
+    width: 105.65px;
+    height: 102.82px;
+}
+.groupName{
+    font-weight: 500;
+    font-size: 20px;
+}
+.groupCargo{
+    font-weight: 400px;
+    font-size: 18px;
+}
+.groupLogo{
+    padding-bottom: 70px;
+}
+.groupLinha{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.groupXp{
+    width: 317px;
+    font-size: 18px;
+    font-weight: 400;
+}
+#teamContButton{
+    display: flex;
+    justify-content: end;
+}
+#teamButton{
+    margin-top: 40px;
+    gap: 10px;
+    padding: 20px 105px;
+    border-radius: 14px;
+    background-color: var(--dark);
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    text-decoration: none;
+}
