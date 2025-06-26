@@ -1,0 +1,18 @@
+#testi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    background-color: var(--dark);
+    border-radius: 45px;
+    padding: 84px 0px 68px 0px;
+    gap: 124px;
+}
+#testiCont{
+    display: flex;
+    gap: 19px;
+    flex-direction: row;
+    padding: 0px 209px;
+    justify-content: space-between;
+}
