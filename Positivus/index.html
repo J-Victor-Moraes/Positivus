@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./Style/testimonials.css">
     <link rel="stylesheet" href="./Style/subheadSeis.css">
     <link rel="stylesheet" href="./Style/contact.css">
+    <link rel="stylesheet" href="./Style/footer.css">
 <body>
     <nav id="nav">
         <div id="logo">
@@ -338,26 +339,70 @@ Skilled in creating compelling, SEO-optimized content for various industries</p>
     <section id="contact">
         <div id="contactContEx">
             <div id="contactContMarca">
-                <div id="contactMarcaHi">
-                    <input type="checkbox">
-                    <p class="contactInput">Say Hi</p>
+                <div class="contactMarca">
+                    <button class="contactButton">
+                    <button class="contactButtonIn"></button>
+                    </button>
+                    <p class="contactMarcaP">Say Hi</p>
                 </div>
-                <div id="ContactMarcaGet">
-                    <input type="checkbox">
-                    <p class="contactInput">Say Hi</p>
+                <div class="contactMarca">
+                    <button class="contactButton"></button>
+                    <p class="contactMarcaP">Get a Quote</p>
                 </div>
             </div>
             <div id="contactContIn">
-                <p class="contactP">Name</p>
-                <input type="text" class="contactInput">Name
-                <p class="contactP">Email*</p>
-                <input type="email" class="contactInput">Email
+                <div class="contactContInput">
+                    <p class="contactP">Name</p>
+                    <input type="text" class="contactInput" placeholder="Name">
+                </div>
+                <div>
+                    <p class="contactP">Email*</p>
+                    <input type="email" class="contactInput" placeholder="Email">
+                </div>
+                <div class="contactContInput">
                 <p class="contactP">Message*</p>
-                <input type="text" class="contactInput">Message
-                <button class="contactButton"></button>
-            </div>
+                <textarea type="text" id="contactInputMessage" placeholder="message"></textarea>
+                </div>
+                <div class="contactContInput">
+                    <button id="contactButtonSend">Send Message</button>
+                </div>
+                </div>
         </div>
-        <img src="./Imagens/contact/Mask group.png" alt="contactImg" id="contactImg">
+        <img src="./Imagens/contact/Captura_de_Tela_2025-07-01_às_14.53.03-removebg-preview.png" alt="contactImg" id="contactImg">
     </section>
+    <footer id="footer">
+        <nav id="footerNav">
+            <img src="./Imagens/footer/Logo.png" alt="logo" id="footerNavLogo">
+            <div id="footerNavCont">
+                <a href="" class="footerNavP">About us</a>
+                <a href="" class="footerNavP">Services</a>
+                <a href="" class="footerNavP">Use Cases</a>
+                <a href="" class="footerNavP">Pricing</a>
+                <a href="" class="footerNavP">Blog</a>
+            </div>
+            <div id="footerNavSocial">
+                <img src="./Imagens/footer/Social icon (2).png" alt="linkedin" class="footerNavSocialImg">
+                <img src="./Imagens/footer/Social icon.png" alt="facebook" class="footerNavSocialImg">
+                <img src="./Imagens/footer/Social icon (1).png" alt="twitter" class="footerNavSocialImg">
+            </div>
+        </nav>
+        <section id="footerSec">
+            <div id="footerSecUm">
+                <h4 id="footerContact">Contact us:</h4>
+                <p class="footerSecP">Email: info@positivus.com</p>
+                <p class="footerSecP">Phone: 555-567-8901</p>
+                <p class="footerSecP">Address: 1234 Main St Moonstone City, Stardust State 12345</p>
+            </div>
+            <div id="footerSecDois">
+                <input type="email" placeholder="Email" id="footerInput">
+                <button id="footerButton">Subscribe to news</button>
+            </div>
+        </section>
+        <div id="footerLinha"></div>
+        <section id="footerDireito">
+            <h4 id="footerDireitoP">© 2023 Positivus. All Rights Reserved.</h4>
+            <a href="" id="footerDireitoPolicy">Privacy Policy</a>
+        </section>
+    </footer>
 </body>
 </html>
